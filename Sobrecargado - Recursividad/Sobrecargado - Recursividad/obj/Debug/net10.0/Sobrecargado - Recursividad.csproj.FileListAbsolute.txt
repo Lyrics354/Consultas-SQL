@@ -1,0 +1,15 @@
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Recursividad\Sobrecargado - Recursividad\bin\Debug\net10.0\Sobrecargado - Recursividad.exe
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Recursividad\Sobrecargado - Recursividad\bin\Debug\net10.0\Sobrecargado - Recursividad.deps.json
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Recursividad\Sobrecargado - Recursividad\bin\Debug\net10.0\Sobrecargado - Recursividad.runtimeconfig.json
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Recursividad\Sobrecargado - Recursividad\bin\Debug\net10.0\Sobrecargado - Recursividad.dll
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Recursividad\Sobrecargado - Recursividad\bin\Debug\net10.0\Sobrecargado - Recursividad.pdb
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Recursividad\Sobrecargado - Recursividad\obj\Debug\net10.0\Sobrecargado - Recursividad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Recursividad\Sobrecargado - Recursividad\obj\Debug\net10.0\Sobrecargado - Recursividad.AssemblyInfoInputs.cache
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Recursividad\Sobrecargado - Recursividad\obj\Debug\net10.0\Sobrecargado - Recursividad.AssemblyInfo.cs
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Recursividad\Sobrecargado - Recursividad\obj\Debug\net10.0\Sobrecargado - Recursividad.csproj.CoreCompileInputs.cache
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Recursividad\Sobrecargado - Recursividad\obj\Debug\net10.0\Sobrecargado - Recursividad.dll
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Recursividad\Sobrecargado - Recursividad\obj\Debug\net10.0\refint\Sobrecargado - Recursividad.dll
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Recursividad\Sobrecargado - Recursividad\obj\Debug\net10.0\Sobrecargado - Recursividad.pdb
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Recursividad\Sobrecargado - Recursividad\obj\Debug\net10.0\Sobrecargado - Recursividad.genruntimeconfig.cache
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Recursividad\Sobrecargado - Recursividad\obj\Debug\net10.0\ref\Sobrecargado - Recursividad.dll
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Recursividad\Sobrecargado - Recursividad\obj\Debug\net10.0\Sobrecar.FA12FFBE.Up2Date

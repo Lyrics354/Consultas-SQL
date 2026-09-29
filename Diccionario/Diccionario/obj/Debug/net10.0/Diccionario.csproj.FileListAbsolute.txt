@@ -1,0 +1,15 @@
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Diccionario\Diccionario\obj\Debug\net10.0\Diccionario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Diccionario\Diccionario\obj\Debug\net10.0\Diccionario.AssemblyInfoInputs.cache
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Diccionario\Diccionario\obj\Debug\net10.0\Diccionario.AssemblyInfo.cs
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Diccionario\Diccionario\obj\Debug\net10.0\Diccionario.csproj.CoreCompileInputs.cache
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Diccionario\Diccionario\bin\Debug\net10.0\Diccionario.exe
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Diccionario\Diccionario\bin\Debug\net10.0\Diccionario.deps.json
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Diccionario\Diccionario\bin\Debug\net10.0\Diccionario.runtimeconfig.json
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Diccionario\Diccionario\bin\Debug\net10.0\Diccionario.dll
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Diccionario\Diccionario\bin\Debug\net10.0\Diccionario.pdb
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Diccionario\Diccionario\obj\Debug\net10.0\Diccionario.dll
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Diccionario\Diccionario\obj\Debug\net10.0\refint\Diccionario.dll
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Diccionario\Diccionario\obj\Debug\net10.0\Diccionario.pdb
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Diccionario\Diccionario\obj\Debug\net10.0\Diccionario.genruntimeconfig.cache
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Diccionario\Diccionario\obj\Debug\net10.0\ref\Diccionario.dll
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Diccionario\Diccionario\obj\Debug\net10.0\Dicciona.7F425E72.Up2Date

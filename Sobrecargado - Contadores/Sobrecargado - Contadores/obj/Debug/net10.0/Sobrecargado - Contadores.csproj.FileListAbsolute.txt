@@ -1,0 +1,15 @@
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Contadores\Sobrecargado - Contadores\bin\Debug\net10.0\Sobrecargado - Contadores.exe
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Contadores\Sobrecargado - Contadores\bin\Debug\net10.0\Sobrecargado - Contadores.deps.json
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Contadores\Sobrecargado - Contadores\bin\Debug\net10.0\Sobrecargado - Contadores.runtimeconfig.json
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Contadores\Sobrecargado - Contadores\bin\Debug\net10.0\Sobrecargado - Contadores.dll
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Contadores\Sobrecargado - Contadores\bin\Debug\net10.0\Sobrecargado - Contadores.pdb
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Contadores\Sobrecargado - Contadores\obj\Debug\net10.0\Sobrecargado - Contadores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Contadores\Sobrecargado - Contadores\obj\Debug\net10.0\Sobrecargado - Contadores.AssemblyInfoInputs.cache
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Contadores\Sobrecargado - Contadores\obj\Debug\net10.0\Sobrecargado - Contadores.AssemblyInfo.cs
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Contadores\Sobrecargado - Contadores\obj\Debug\net10.0\Sobrecargado - Contadores.csproj.CoreCompileInputs.cache
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Contadores\Sobrecargado - Contadores\obj\Debug\net10.0\Sobrecargado - Contadores.dll
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Contadores\Sobrecargado - Contadores\obj\Debug\net10.0\refint\Sobrecargado - Contadores.dll
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Contadores\Sobrecargado - Contadores\obj\Debug\net10.0\Sobrecargado - Contadores.pdb
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Contadores\Sobrecargado - Contadores\obj\Debug\net10.0\Sobrecargado - Contadores.genruntimeconfig.cache
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Contadores\Sobrecargado - Contadores\obj\Debug\net10.0\ref\Sobrecargado - Contadores.dll
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Contadores\Sobrecargado - Contadores\obj\Debug\net10.0\Sobrecar.3B2DA287.Up2Date

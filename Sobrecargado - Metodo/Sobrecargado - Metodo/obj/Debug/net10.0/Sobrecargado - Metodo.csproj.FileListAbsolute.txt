@@ -1,0 +1,15 @@
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Metodo\Sobrecargado - Metodo\bin\Debug\net10.0\Sobrecargado - Metodo.exe
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Metodo\Sobrecargado - Metodo\bin\Debug\net10.0\Sobrecargado - Metodo.deps.json
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Metodo\Sobrecargado - Metodo\bin\Debug\net10.0\Sobrecargado - Metodo.runtimeconfig.json
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Metodo\Sobrecargado - Metodo\bin\Debug\net10.0\Sobrecargado - Metodo.dll
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Metodo\Sobrecargado - Metodo\bin\Debug\net10.0\Sobrecargado - Metodo.pdb
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Metodo\Sobrecargado - Metodo\obj\Debug\net10.0\Sobrecargado - Metodo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Metodo\Sobrecargado - Metodo\obj\Debug\net10.0\Sobrecargado - Metodo.AssemblyInfoInputs.cache
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Metodo\Sobrecargado - Metodo\obj\Debug\net10.0\Sobrecargado - Metodo.AssemblyInfo.cs
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Metodo\Sobrecargado - Metodo\obj\Debug\net10.0\Sobrecargado - Metodo.csproj.CoreCompileInputs.cache
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Metodo\Sobrecargado - Metodo\obj\Debug\net10.0\Sobrecargado - Metodo.dll
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Metodo\Sobrecargado - Metodo\obj\Debug\net10.0\refint\Sobrecargado - Metodo.dll
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Metodo\Sobrecargado - Metodo\obj\Debug\net10.0\Sobrecargado - Metodo.pdb
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Metodo\Sobrecargado - Metodo\obj\Debug\net10.0\Sobrecargado - Metodo.genruntimeconfig.cache
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Metodo\Sobrecargado - Metodo\obj\Debug\net10.0\ref\Sobrecargado - Metodo.dll
+C:\Users\wuwil\OneDrive\Escritorio\HPA III\C#\Sobrecargado - Metodo\Sobrecargado - Metodo\obj\Debug\net10.0\Sobrecar.9B804965.Up2Date
