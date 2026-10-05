@@ -35,7 +35,7 @@ Simula el caso de un login o buscador donde el atacante mete ' OR '1'='1 en un c
 Es una inyección in-band (basada en resultados): el atacante ve directamente los datos robados en la respuesta.
 Riesgo principal: fuga masiva de información (todos los registros expuestos).
 
-<img width="740" height="816" alt="image" src="https://github.com/user-attachments/assets/f43bab88-983e-4d61-96ce-bc579b49901f" />
+<img width="692" height="782" alt="image" src="https://github.com/user-attachments/assets/d885bba5-9a9f-4d85-9c20-c2ff2731140f" />
 
 
 **Consulta 2 – Inyección basada en tiempo** 
