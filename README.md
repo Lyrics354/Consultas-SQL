@@ -22,21 +22,40 @@ Este laboratorio reúne cinco ejercicios de programación trabajados en clase:
 
 ### 1. Consultas SQL
 
-Base de datos con tres tablas: `estudiantes`, `cursos` y `matriculas` (script en `sql/01_crear_base_datos.sql`).
+Causa común: todos funcionan porque la aplicación concatena la entrada del usuario directamente en la consulta sin validarla.
+Solución / mitigación: usar consultas parametrizadas (prepared statements), validación de entradas, principio de mínimo privilegio en el usuario de la BD, y nunca mostrar errores SQL al usuario final.
+Clasificación: el #1 es in-band, el #2 es blind/inferencial, el #3 es una técnica auxiliar que puede acompañar a cualquiera.
+Contexto real: la inyección SQL lleva años en el Top 10 de OWASP como una de las vulnerabilidades más críticas en aplicaciones web.
 
-**Consulta 1 – Bypass con OR '1'='1'** Devuelve todos los registros ignorando el filtro.
+**Consulta 1 – Bypass con OR '1'='1'** 
+Devuelve todos los registros ignorando el filtro.
 SELECT * FROM productos WHERE nombre = '' OR '1'='1';
+Es el ejemplo más clásico de inyección SQL. Se aprovecha de que '1'='1' siempre es verdadero, así que la condición WHERE deja de filtrar y devuelve toda la tabla.
+Simula el caso de un login o buscador donde el atacante mete ' OR '1'='1 en un campo de texto para saltarse la autenticación o la restricción.
+Es una inyección in-band (basada en resultados): el atacante ve directamente los datos robados en la respuesta.
+Riesgo principal: fuga masiva de información (todos los registros expuestos).
+
 <img width="740" height="816" alt="image" src="https://github.com/user-attachments/assets/f43bab88-983e-4d61-96ce-bc579b49901f" />
 
 
-**Consulta 2 – Inyección basada en tiempo** SLEEP() para confirmar vulnerabilidad por retardo.
+**Consulta 2 – Inyección basada en tiempo** 
+SLEEP() para confirmar vulnerabilidad por retardo.
 SELECT * FROM productos WHERE id = 1 - SLEEP(1);
+Es una inyección ciega (blind SQL injection): el atacante no ve los datos directamente, sino que deduce información observando cuánto tarda la respuesta.
+SLEEP(1) hace una pausa de 1 segundo. Si la página tarda ese tiempo, confirma que el código es vulnerable aunque no muestre errores ni resultados.
+Se usa cuando la aplicación no devuelve mensajes de error ni datos visibles, por eso el atacante recurre al tiempo como "canal" de información.
+Normalmente se combina con condiciones (IF, AND) para extraer datos letra por letra. Ejemplo: "si la primera letra del password es 'a', duerme 5 segundos".
+Es más lenta y sigilosa, difícil de detectar en logs normales.
 
 <img width="763" height="835" alt="image" src="https://github.com/user-attachments/assets/0e8885b6-d0a2-41fb-8c29-cf31999f2baf" />
 
 
-**Consulta 3 – Inyección por comentario** Anula el resto de la condición.
+**Consulta 3 – Inyección por comentario** 
+Anula el resto de la condición.
 SELECT * FROM productos WHERE nombre = 'Libros'; -- ' AND precio = ...
+Los símbolos -- (o #, o /* */) convierten en comentario todo lo que viene después, por lo que el resto de la consulta original queda anulado.
+Sirve para eliminar condiciones de seguridad. Por ejemplo, en un login: WHERE usuario = 'admin' -- ' AND password = '...' ignora la verificación de contraseña y entra como admin.
+También se usa para "cerrar limpiamente" una inyección y evitar errores de sintaxis por las comillas o paréntesis sobrantes.
 
 <img width="740" height="816" alt="image" src="https://github.com/user-attachments/assets/01683558-f801-49c9-b65d-d350c353ad60" />
 
