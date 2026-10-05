@@ -34,7 +34,7 @@ el #1 es in-band, el #2 es blind/inferencial, el #3 es una técnica auxiliar que
 **Contexto real:**
 la inyección SQL lleva años en el Top 10 de OWASP como una de las vulnerabilidades más críticas en aplicaciones web.
 
-**Consulta 1 – Bypass con OR '1'='1'** 
+### Consulta 1 – Bypass con OR '1'='1'
 
 Devuelve todos los registros ignorando el filtro.
 SELECT * FROM productos WHERE nombre = '' OR '1'='1';
@@ -46,7 +46,7 @@ Riesgo principal: fuga masiva de información (todos los registros expuestos).
 <img width="692" height="782" alt="image" src="https://github.com/user-attachments/assets/d885bba5-9a9f-4d85-9c20-c2ff2731140f" />
 
 
-**Consulta 2 – Inyección basada en tiempo** 
+### Consulta 2 – Inyección basada en tiempo
 
 SLEEP() para confirmar vulnerabilidad por retardo.
 SELECT * FROM productos WHERE id = 1 - SLEEP(1);
@@ -59,7 +59,7 @@ Es más lenta y sigilosa, difícil de detectar en logs normales.
 <img width="763" height="835" alt="image" src="https://github.com/user-attachments/assets/0e8885b6-d0a2-41fb-8c29-cf31999f2baf" />
 
 
-**Consulta 3 – Inyección por comentario** 
+### Consulta 3 – Inyección por comentario
 
 Anula el resto de la condición.
 SELECT * FROM productos WHERE nombre = 'Libros'; -- ' AND precio = ...
