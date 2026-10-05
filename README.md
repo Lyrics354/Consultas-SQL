@@ -35,6 +35,7 @@ el #1 es in-band, el #2 es blind/inferencial, el #3 es una técnica auxiliar que
 la inyección SQL lleva años en el Top 10 de OWASP como una de las vulnerabilidades más críticas en aplicaciones web.
 
 **Consulta 1 – Bypass con OR '1'='1'** 
+
 Devuelve todos los registros ignorando el filtro.
 SELECT * FROM productos WHERE nombre = '' OR '1'='1';
 Es el ejemplo más clásico de inyección SQL. Se aprovecha de que '1'='1' siempre es verdadero, así que la condición WHERE deja de filtrar y devuelve toda la tabla.
@@ -46,6 +47,7 @@ Riesgo principal: fuga masiva de información (todos los registros expuestos).
 
 
 **Consulta 2 – Inyección basada en tiempo** 
+
 SLEEP() para confirmar vulnerabilidad por retardo.
 SELECT * FROM productos WHERE id = 1 - SLEEP(1);
 Es una inyección ciega (blind SQL injection): el atacante no ve los datos directamente, sino que deduce información observando cuánto tarda la respuesta.
@@ -58,6 +60,7 @@ Es más lenta y sigilosa, difícil de detectar en logs normales.
 
 
 **Consulta 3 – Inyección por comentario** 
+
 Anula el resto de la condición.
 SELECT * FROM productos WHERE nombre = 'Libros'; -- ' AND precio = ...
 Los símbolos -- (o #, o /* */) convierten en comentario todo lo que viene después, por lo que el resto de la consulta original queda anulado.
