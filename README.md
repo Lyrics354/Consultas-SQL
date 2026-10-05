@@ -12,8 +12,6 @@ Este laboratorio reúne cinco ejercicios de programación trabajados en clase:
 4. **Sobrecarga de métodos** (mismo nombre, distinta firma).
 5. **Estadísticas** con contadores: frecuencia de cada cara al lanzar un dado 6000 veces.
 
-Los ejercicios de C# se ejecutan desde un único programa de consola con menú; las consultas SQL están en la carpeta `sql/`.
-
 ## Tecnologías Utilizadas
 
 - **Lenguaje / Framework:** C# con .NET 8 (aplicación de consola)
