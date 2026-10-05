@@ -22,10 +22,17 @@ Este laboratorio reúne cinco ejercicios de programación trabajados en clase:
 
 ### 1. Consultas SQL
 
-Causa común: todos funcionan porque la aplicación concatena la entrada del usuario directamente en la consulta sin validarla.
-Solución / mitigación: usar consultas parametrizadas (prepared statements), validación de entradas, principio de mínimo privilegio en el usuario de la BD, y nunca mostrar errores SQL al usuario final.
-Clasificación: el #1 es in-band, el #2 es blind/inferencial, el #3 es una técnica auxiliar que puede acompañar a cualquiera.
-Contexto real: la inyección SQL lleva años en el Top 10 de OWASP como una de las vulnerabilidades más críticas en aplicaciones web.
+**Causa común:**
+todos funcionan porque la aplicación concatena la entrada del usuario directamente en la consulta sin validarla.
+
+**Solución / mitigación:**
+usar consultas parametrizadas (prepared statements), validación de entradas, principio de mínimo privilegio en el usuario de la BD, y nunca mostrar errores SQL al usuario final.
+
+**Clasificación:**
+el #1 es in-band, el #2 es blind/inferencial, el #3 es una técnica auxiliar que puede acompañar a cualquiera.
+
+**Contexto real:**
+la inyección SQL lleva años en el Top 10 de OWASP como una de las vulnerabilidades más críticas en aplicaciones web.
 
 **Consulta 1 – Bypass con OR '1'='1'** 
 Devuelve todos los registros ignorando el filtro.
