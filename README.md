@@ -6,7 +6,7 @@
 
 Este laboratorio reúne cinco ejercicios de programación trabajados en clase:
 
-1. **3 consultas SQL** sobre una base de datos `universidad` (SELECT con filtros, JOIN y funciones de agregado).
+1. **3 consultas SQL** Explica brevemente que el proyecto demuestra vulnerabilidades de inyección SQL y operaciones CRUD sobre una tabla productos.
 2. **Diccionario** en C# con las funciones **Insertar** y **Actualizar**.
 3. **Factorial** calculado con **recursividad**.
 4. **Sobrecarga de métodos** (mismo nombre, distinta firma).
