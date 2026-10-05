@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 
-Console.WriteLine("Hello, World!");
-
 /* Pruebas del Código de Conexión */
 Dictionary<string, object> datosInventario = new Dictionary<string, object>
 {
