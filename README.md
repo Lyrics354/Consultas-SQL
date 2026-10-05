@@ -1,4 +1,4 @@
-# Laboratorio # [Número] – Resolución de Problemas en C# y SQL
+# Laboratorio en Clases – Resolución de Problemas en C# y SQL
 
 **Fecha:** 29/09/2026
 
@@ -17,7 +17,7 @@ Los ejercicios de C# se ejecutan desde un único programa de consola con menú; 
 ## Tecnologías Utilizadas
 
 - **Lenguaje / Framework:** C# con .NET 8 (aplicación de consola)
-- **Base de datos:** MySQL / MariaDB
+- **Base de datos:** MySQL / productosdb
 - **Herramientas:** Git, Visual Studio / Visual Studio Code, WampServer (o XAMPP) / MySQL Workbench
 
 ## Capturas de Pantalla y Problemas
@@ -26,17 +26,22 @@ Los ejercicios de C# se ejecutan desde un único programa de consola con menú; 
 
 Base de datos con tres tablas: `estudiantes`, `cursos` y `matriculas` (script en `sql/01_crear_base_datos.sql`).
 
-**Consulta 1 – SELECT con WHERE y ORDER BY:** lista los estudiantes de Ingeniería de Software ordenados por apellido.
+**Consulta 1 – Bypass con OR '1'='1'** Devuelve todos los registros ignorando el filtro.
+SELECT * FROM productos WHERE nombre = '' OR '1'='1';
+<img width="740" height="816" alt="image" src="https://github.com/user-attachments/assets/f43bab88-983e-4d61-96ce-bc579b49901f" />
 
-![Consulta SQL 1](capturas/05_sql_consulta1.png)
 
-**Consulta 2 – INNER JOIN de tres tablas:** muestra la nota de cada estudiante en cada curso, de mayor a menor.
+**Consulta 2 – Inyección basada en tiempo** SLEEP() para confirmar vulnerabilidad por retardo.
+SELECT * FROM productos WHERE id = 1 - SLEEP(1);
 
-![Consulta SQL 2](capturas/05_sql_consulta2.png)
+<img width="763" height="835" alt="image" src="https://github.com/user-attachments/assets/0e8885b6-d0a2-41fb-8c29-cf31999f2baf" />
 
-**Consulta 3 – GROUP BY / HAVING con funciones de agregado:** cuenta los estudiantes y calcula el promedio, la nota máxima y la mínima por curso, mostrando solo los cursos con promedio ≥ 70.
 
-![Consulta SQL 3](capturas/05_sql_consulta3.png)
+**Consulta 3 – Inyección por comentario** Anula el resto de la condición.
+SELECT * FROM productos WHERE nombre = 'Libros'; -- ' AND precio = ...
+
+<img width="740" height="816" alt="image" src="https://github.com/user-attachments/assets/01683558-f801-49c9-b65d-d350c353ad60" />
+
 
 ### 2. Diccionario (funciones Insertar / Actualizar)
 
@@ -45,7 +50,7 @@ Se usa un `Dictionary<int, string>` (ID → nombre del estudiante):
 - `Insertar(id, nombre)`: agrega el registro solo si la clave **no existe** (usa `ContainsKey`); si ya existe, muestra un error y devuelve `false`.
 - `Actualizar(id, nuevoNombre)`: modifica el valor solo si la clave **existe**; si no, muestra un error y devuelve `false`.
 
-![Diccionario](capturas/01_diccionario.png)
+<img width="1472" height="382" alt="image" src="https://github.com/user-attachments/assets/271dfa5a-8288-445b-a9c4-904191a26fe2" />
 
 ### 3. Factorial → Recursividad
 
@@ -56,7 +61,7 @@ El método `Calcular(long numero)` se llama a sí mismo:
 
 Se imprime el factorial de 0 a 10.
 
-![Factorial recursivo](capturas/02_factorial_recursivo.png)
+<img width="1475" height="482" alt="image" src="https://github.com/user-attachments/assets/d3945ff2-6c5c-4c68-8167-379fb4beb407" />
 
 ### 4. Sobrecarga de métodos
 
@@ -66,13 +71,13 @@ La clase `SobreCarga` declara varios métodos con el mismo nombre y distinta fir
 - **Por número de parámetros:** `Sumar(int, int)` y `Sumar(int, int, int)`.
 - **Por orden de parámetros:** `Describir(string, int)` y `Describir(int, string)`.
 
-![Sobrecarga de métodos](capturas/03_sobrecarga_metodos.png)
+<img width="1460" height="393" alt="image" src="https://github.com/user-attachments/assets/e5b22f60-8be4-46d4-82be-2e7f5cb8987f" />
 
 ### 5. Estadísticas (frecuencia de un dado)
 
 Con `Random.Next(1, 7)` se simulan 6000 lanzamientos de un dado. Un `switch` incrementa el contador de la cara obtenida (`frecuencia1` … `frecuencia6`). Al final se muestra la frecuencia y el porcentaje de cada cara, la más y la menos frecuente, y la frecuencia esperada (1000). Como los números son aleatorios, cada ejecución da resultados distintos.
 
-![Estadísticas del dado](capturas/04_estadisticas_dado.png)
+<img width="1462" height="400" alt="image" src="https://github.com/user-attachments/assets/1f126fe3-335a-4742-8017-cc87723fcc5b" />
 
 ## Estructura de Carpetas o Directorios
 
