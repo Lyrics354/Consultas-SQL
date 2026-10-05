@@ -115,8 +115,8 @@ Laboratorio/
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/<usuario>/Laboratorio-CSharp.git
-   cd Laboratorio-CSharp
+[   git clone https://github.com/<usuario>/Laboratorio-CSharp.git
+   cd Laboratorio-CSharp](https://github.com/Lyrics354/Consultas-SQL.git) 
    ```
 2. **Configurar el entorno local:** instalar el [SDK de .NET 8](https://dotnet.microsoft.com/download) (o abrir `Laboratorio.sln` en Visual Studio).
 3. **Ejecutar el comando de arranque:**
