@@ -67,7 +67,7 @@ Se usa un `Dictionary<int, string>` (ID → nombre del estudiante):
 - `Insertar(id, nombre)`: agrega el registro solo si la clave **no existe** (usa `ContainsKey`); si ya existe, muestra un error y devuelve `false`.
 - `Actualizar(id, nuevoNombre)`: modifica el valor solo si la clave **existe**; si no, muestra un error y devuelve `false`.
 
-<img width="1472" height="382" alt="image" src="https://github.com/user-attachments/assets/271dfa5a-8288-445b-a9c4-904191a26fe2" />
+<img width="1475" height="367" alt="image" src="https://github.com/user-attachments/assets/615ed532-143c-4bfc-98ca-a958d3dc297f" />
 
 ### 3. Factorial → Recursividad
 
