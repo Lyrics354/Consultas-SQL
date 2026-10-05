@@ -116,6 +116,7 @@ Laboratorio/
 ├── 03-Sobrecarga-Contadores/
 ├── 04-Sobrecarga-Metodos/
 ├── 05-Sobrecarga-Recursividad/
+├── 06-Archivo o Query de la Consulta SQL
 └── README.md                         # Documentación del proyecto
 ```
 
@@ -130,27 +131,21 @@ Laboratorio/
 2. **Configurar el entorno local:** instalar el [SDK de .NET 8](https://dotnet.microsoft.com/download) (o abrir `Laboratorio.sln` en Visual Studio).
 3. **Ejecutar el comando de arranque:**
    ```bash
-   dotnet run --project src/Laboratorio
+   dotnet run --project src/Laboratorio en CLases
    ```
    Se abre un menú para elegir el ejercicio. También se puede ejecutar uno directamente:
    ```bash
-   dotnet run --project src/Laboratorio -- 1   # Diccionario
-   dotnet run --project src/Laboratorio -- 2   # Sobrecarga-Contadores
-   dotnet run --project src/Laboratorio -- 3   # Sobrecarga-Metodos
-   dotnet run --project src/Laboratorio -- 4   # Sobrecarga-Recursividad
+   dotnet run --project src/Laboratorio en Clases -- 1   # Diccionario
+   dotnet run --project src/Laboratorio en Clases -- 2   # Sobrecarga-Contadores
+   dotnet run --project src/Laboratorio en Clases -- 3   # Sobrecarga-Metodos
+   dotnet run --project src/Laboratorio en Clases -- 4   # Sobrecarga-Recursividad
    ```
 
 ### Consultas SQL
 
 1. Iniciar MySQL (por ejemplo, desde WampServer).
-2. Crear la base de datos y cargar los datos:
-   ```bash
-   mysql -u root -p < sql/01_crear_base_datos.sql
-   ```
-3. Ejecutar las consultas:
-   ```bash
-   mysql -u root -p --table < sql/02_consultas.sql
-   ```
+2. Crear la base de datos y cargar los datos.
+3. Ejecutar las consultas.
    También se pueden abrir los archivos `.sql` en phpMyAdmin o MySQL Workbench y ejecutarlos allí.
 
 ## Autor y Contexto
